@@ -1,10 +1,10 @@
 # AutoQuery-Model-via-KB-DB ![VERSION](https://img.shields.io/badge/Version-1-green.svg)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/Django.svg)
-# 領貨清單與KB上的DataBase做比對
+# 搜尋 DataBase 中特定的機型序號等資訊。
 ## 此程式可實現
-  - 即時連線至KB-DataBase做Model比對。
-  - Code 預設是找5130 XI，在第40行位置。
-  - DB 密碼已經先遮蔽掉，有需要去詢問管理員。
+  - 即時連線至 KB-DataBase 做 Model 比對。
+  - Code 預設是找5130 XI，在第 24 行位置，有需要可自行修改。
+  - DB 密碼已經先遮蔽掉，有需要請去詢問管理員。
 
 ## Logs
    * Version v1

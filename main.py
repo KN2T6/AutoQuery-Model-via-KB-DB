@@ -1,28 +1,12 @@
-import sys
 import joe_def_v2 as sw
-import xlrd, pymysql
+import pymysql
 from colorama import init
 init()
 
 # Version 1 initalized。
 
-# Default List
-List = "Test_File.xls"
-
 # DB Args
-db_settings = {"host": "192.168.68.252", "user": "python", "password": "xxxxxxxxx", "db": "kx_db", "charset": "utf8"}
-
-# Drag and Drop
-if len(sys.argv) > 1:
-    dropped_arg = sys.argv; dropped_file = dropped_arg[1]
-    print(sw.col_red() + "Detected Drop File : " + dropped_file + sw.col_def())
-    List = dropped_file
-else:
-    print(sw.col_yellow() + "Not Detected Drag and Drop File, Using Default Parser ./" + List + sw.col_def())
-
-# Read Excel
-data = xlrd.open_workbook(List)
-sheet = data.sheets()[0]; nrows = sheet.nrows; ncols = sheet.ncols
+db_settings = {"host": "192.168.68.252", "user": "python", "password": "Kx12930780@@", "db": "kx_db", "charset": "utf8"}
 
 # Connect DB
 try:
