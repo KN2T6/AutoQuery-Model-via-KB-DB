@@ -6,7 +6,7 @@ init()
 # Version 1 initalized。
 
 # DB Args
-db_settings = {"host": "192.168.68.252", "user": "python", "password": "Kx12930780@@", "db": "kx_db", "charset": "utf8"}
+db_settings = {"host": "192.168.68.252", "user": "python", "password": "xxxxxxxxxxx", "db": "kx_db", "charset": "utf8"}
 
 # Connect DB
 try:
