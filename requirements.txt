@@ -1,0 +1,5 @@
+pymysql
+pyinstaller
+colorama
+xlrd==1.2.0
+requests
